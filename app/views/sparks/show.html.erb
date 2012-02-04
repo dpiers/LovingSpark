@@ -1,0 +1,25 @@
+<%= image_tag @spark.icon.url(:small) %>
+
+<p>
+  <b>Name:</b>
+  <%= @spark.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @spark.description %>
+</p>
+
+<p>
+  <b>Points:</b>
+  <%= @spark.points %>
+</p>
+
+<p>
+  <b>Completed:</b>
+  <%= @spark.completed %>
+</p>
+
+<br/>
+<a href="<%= edit_spark_path(@spark) %> " class="btn btn-small">Edit</a>
+<a href="<%= sparks_path %> " class="btn btn-small">Back</a>

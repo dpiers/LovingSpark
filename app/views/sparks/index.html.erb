@@ -1,0 +1,30 @@
+<h1>Listing Sparks</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Points</th>
+    <th>Completed</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @sparks.each do |spark| %>
+  <tr>
+    <td><%= spark.name %></td>
+    <td><%= spark.description %></td>
+    <td><%= spark.points %></td>
+    <td><%= spark.completed? ? 'True' : 'False' %></td>
+    <td><%= link_to 'Show', spark %></td>
+    <td><%= link_to 'Edit', edit_spark_path(spark) %></td>
+    <td><%= link_to 'Destroy', spark, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<a href="<%= new_spark_path %> " class="btn btn-small">New Spark</a>
+

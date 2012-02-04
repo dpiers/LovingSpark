@@ -1,0 +1,10 @@
+Sat, 04 Feb 2012 02:42:59 -0600
+doc/README_FOR_APP	Fri, 03 Feb 2012 17:26:21 -0600
+app/controllers/application_controller.rb	Fri, 03 Feb 2012 17:26:20 -0600
+app/controllers/sparks_controller.rb	Sat, 04 Feb 2012 01:56:57 -0600
+app/controllers/welcome_controller.rb	Fri, 03 Feb 2012 17:29:36 -0600
+app/helpers/application_helper.rb	Fri, 03 Feb 2012 17:26:20 -0600
+app/helpers/sparks_helper.rb	Sat, 04 Feb 2012 01:56:57 -0600
+app/helpers/welcome_helper.rb	Fri, 03 Feb 2012 17:29:36 -0600
+app/models/spark.rb	Sat, 04 Feb 2012 02:27:08 -0600
+app/tabs/tabulous.rb	Sat, 04 Feb 2012 02:40:04 -0600

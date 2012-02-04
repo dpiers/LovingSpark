@@ -1,0 +1,12 @@
+<%= semantic_form_for @spark do |f| %>
+  <%= f.semantic_errors %>
+  <%= f.inputs do %>
+    <%= f.input :name,   :hint => "Enter a title for this spark" %>
+    <%= f.input :description, :hint => "Describe the spark" %>
+    <%= f.input :points, :hint => "How many points is this spark worth?" %>
+    <%= f.input :icon, :as => :file, :hint => "Select an image for this spark" %>
+  <% end %>
+  <%= f.buttons do %>
+    <%= f.commit_button :button_html => {:class => "primary"} %>
+  <% end %>
+<% end %>

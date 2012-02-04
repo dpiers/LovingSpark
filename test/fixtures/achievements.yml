@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyString
+  points: 1
+  completed: false
+
+two:
+  name: MyString
+  description: MyString
+  points: 1
+  completed: false
